@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#E0F5FC"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="407dp"
+        android:layout_height="70dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@mipmap/ic_launcher_foreground_top"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="398dp"
+        android:layout_height="73dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@mipmap/ic_launcher_foreground_bottom"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="654dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="187dp"
+        android:layout_height="67dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@mipmap/ic_launcher_foreground_scanme_1"
+        tools:layout_editor_absoluteX="112dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        app:srcCompat="@mipmap/ic_launcher_foreground_scanMe"
+        tools:layout_editor_absoluteX="151dp"
+        tools:layout_editor_absoluteY="619dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="298dp"
+        android:layout_height="294dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@mipmap/ic_launcher_foreground_asset"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="165dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="299dp"
+        android:layout_height="296dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@mipmap/ic_launcher_foreground_frame_scan"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="165dp" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="452dp"
+        android:layout_height="724dp"
+        android:scaleType="center"
+        app:srcCompat="@mipmap/ic_launcher_foreground_back"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+</android.support.constraint.ConstraintLayout>
